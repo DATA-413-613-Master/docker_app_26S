@@ -1,10 +1,8 @@
-```{dcf}
-linters: linters_with_defaults(              #< 1. >
-  assignment_linter = NULL,                  #< 2. >
-  commented_code_linter = NULL,              #< 3. >
-  indentation_linter = NULL,                 #< 4. >
-  object_usage_linter = NULL,                #< 5. >
-  trailing_whitespace_linter =  NULL,        #< 6. >
-  absolute_path_linter()                     #< 7. >
+linters: linters_with_defaults(
+  assignment_linter = NULL,
+  commented_code_linter = NULL,
+  indentation_linter = NULL,
+  object_usage_linter = NULL,
+  trailing_whitespace_linter =  NULL,
+  absolute_path_linter()
   )
-```
